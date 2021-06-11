@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Search from './serch/container/Search';
+import 'antd/dist/antd.css';
+import { Route } from 'react-router-dom';
+import User from './user/container/User';
+export default function App() {
+	return (
+		<>
+			<Route exact path='/' component={Search} />
+			<Route path='/user/:name' component={User} />
+		</>
+	);
 }
-
-export default App;
