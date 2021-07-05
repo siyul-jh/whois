@@ -2,7 +2,7 @@
 ### jsconfig.json
 VSCode에서 Typescript를 이용하여 Type Check를 해준다.
 
->`antd, @ant-design/icons`         : antd와 antd에서 제공하는 icon. 
+`antd, @ant-design/icons`         : antd와 antd에서 제공하는 icon. 
 `@testing-library/react-hooks`    : react hooks 테스트. 
 `react-test-render`               : react hooks에서 사용. 
 `@types/jest`                     : TestCode 타입 정보추가. 
