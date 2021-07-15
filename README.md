@@ -23,8 +23,8 @@ VSCode에서 Typescript를 이용하여 Type Check를 해준다.
 ```bash
 │ READE.md
 │ jsconfig.json
-│ package.json
-│ .gitignore.json
+│ .package
+│ .gitignore
 └─ src
     ├─search
     │   ├─ component
